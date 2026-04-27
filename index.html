@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="/restjap/css/app.css?v=<?php echo time(); ?>">
+    <title>Sakura Izakaya - Menú Japones</title>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="contenedor nav-flex">
+            <div class="logo">
+                <span class="kanji">桜</span> SAKURA
+            </div>
+            <div class="enlaces">
+                <a href="#menu">Menú</a>
+                <a href="#promociones">Promociones</a>
+                <a href="login.php" class="btn-staff-portal">Staff Portal</a>
+                <a href="restaurante/login.php" class="btn-staff-portal"></a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <span class="subtitulo">BIENVENIDOS AL SABOR</span>
+                <h1>Tradición que se siente</h1>
+                <p>Ingredientes frescos traídos directamente del mercado de Tsukiji.</p>
+                <a href="https://wa.me/tu_numero" class="btn-rojo">RESERVAR MESA</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="contenedor section-padding" id="menu">
+        <h2 class="section-title">Nuestras Joyas Culinarias</h2>
+        
+        <div class="menu-grid">
+            <div class="platillo-card">
+                <img src="assets/img/Sushi-Combo.jpg" alt="Combo Sushi">
+                <div class="platillo-info">
+                    <h3>Sakura Sushi Combo</h3>
+                    <p>12 piezas variadas de nigiri y maki del chef.</p>
+                    <span class="precio">$390</span>
+                </div>
+            </div>
+
+            <div class="platillo-card">
+                <img src="assets/img/tonkotsu-ramen.jpg" alt="Ramen">
+                <div class="platillo-info">
+                    <h3>Tonkotsu Ramen</h3>
+                    <p>Caldo de cerdo cremoso, chashu y huevo ajitama.</p>
+                    <span class="precio">$195</span>
+                </div>
+            </div>
+
+            <div class="platillo-card">
+                <img src="assets/img/gyozas.jpg" alt="Gyozas">
+                <div class="platillo-info">
+                    <h3>Gyozas de Cerdo (6pcs)</h3>
+                    <p>Empanadillas japonesas a la plancha.</p>
+                    <span class="precio">$98</span>
+                </div>
+            </div>
+            
+            <div class="platillo-card">
+                <img src="assets/img/salmon-teriyaki.jpg" alt="Salmon">
+                <div class="platillo-info">
+                    <h3>Salmón Teriyaki</h3>
+                    <p>Filete de salmón glaseado con salsa teriyaki casera.</p>
+                    <span class="precio">$180</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="promociones section-padding" id="promociones">
+        <div class="contenedor">
+            <div class="promo-banner">
+                <div class="promo-content">
+                    <h2>¡Lunes de Ramen 2x1!</h2>
+                    <p>Disfruta de cualquiera de nuestros ramen tradicionales al precio de uno. Válido solo en sucursal.</p>
+                    <span class="codigo">CÓDIGO: RAMENFEST</span>
+                </div>
+                <div class="promo-img">
+                    <img src="assets/img/Sushi-Combo.jpg" alt="Promoción Ramen">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Sakura Izakaya. El arte del buen comer.</p>
+    </footer>
+
+</body>
+</html>
